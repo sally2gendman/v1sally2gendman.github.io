@@ -1,0 +1,151 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #444;
+  font-family: "SF Pro Display";
+  font-size: 12px;
+  font-style: normal;
+}
+
+.container {
+  position: relative;
+  width: 375px;
+  height: 667px;
+  background: #FFFFFF;
+  margin: 5% auto;
+  overflow: hidden;
+}
+
+.header {
+  width: 100%;
+  height: 156px;
+  background: #446CB3;
+}
+
+.column {
+  display: inline-block;
+  float: left;
+  height: 100%;
+}
+
+.left-column {
+  width: 10%;
+  position: relative;
+  /* border: red 2px dashed; */
+}
+
+.center-column {
+  width: 80%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.to-from-fields {
+  width: 250px;
+  height: 25px;
+  display: inline-block;
+}
+
+.form-input {
+  padding: 7px;
+  border-radius: 3px;
+  background: rgba(227, 224, 255, 0.5);
+  color: white;
+  font-family: "SF Pro Display";
+  margin: 7px 0;
+  line-height: 16px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: .5px;
+}
+
+.right-column {
+  width: 10%;
+  position: relative;
+}
+
+.arrow-right {
+  width: 300px;
+  height: 600px;
+  display: inline-block;
+  position: absolute;
+  top: 65px;
+  left: .5px;
+}
+
+.arrow-left {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: absolute;
+  top: 15px;
+  left: 3px;
+}
+
+.title  {
+  width: 238px;
+  height: 23px;
+  display: inline-block;
+  font: "SF Pro Display";
+  font-style: normal;
+  font-weight: bold;
+  line-height: 16px;
+  font-size: 18px;
+  letter-spacing: .5px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.content {
+
+}
+
+.direction-title {
+  padding: 10px;
+  background: rgba(196, 196, 196, 0.5);
+  color: #786F6F;
+  font-family: "SF Pro Display";
+  line-height: 16px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: .5px;
+  border-bottom: 1px solid #B0B3B8;
+  border-top: 1px solid #B0B3B8;
+}
+
+.route-info {
+  width: 100%;
+  padding: 10px;
+  font-family: "SF Pro Display";
+  line-height: 16px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: .5px;
+  display: inline-block;
+}
+
+.line-column {
+  width: 15%;
+}
+
+.destination-column {
+  width: 55%;
+}
+
+.frequency-column {
+  width: 30%;
+  text-align: right;
+}
+
+.offset-border {
+  width: 100%;
+  border: .5px solid #999;
+  display: block;
+  margin-left: 10px;
+}
