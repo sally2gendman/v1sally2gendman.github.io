@@ -39,7 +39,6 @@ body {
 .left-column {
   width: 10%;
   position: relative;
-  /* border: red 2px dashed; */
 }
 
 .center-column {
@@ -49,22 +48,27 @@ body {
 }
 
 .to-from-fields {
-  width: 250px;
-  height: 25px;
-  display: inline-block;
+  width: 85%;
+  margin: 0 auto;
 }
 
 .form-input {
+  width: 100%;
   padding: 7px;
   border-radius: 3px;
   background: rgba(227, 224, 255, 0.5);
+  border: none;
   color: white;
-  margin: 7px 0;
-  line-height: 16px;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: normal;
-  letter-spacing: .5px;
+  margin: 5px 0;
+  /* line-height: 16px; */
+  font-size: 12px;
+  /* font-style: normal; */
+  /* font-weight: normal; */
+  /* letter-spacing: .5px; */
+}
+
+.form-input::placeholder {
+  color: #E8E8E8;
 }
 
 .right-column {
@@ -91,8 +95,7 @@ body {
 }
 
 .title  {
-  width: 238px;
-  height: 23px;
+  width: 100%;
   display: inline-block;
   font-style: normal;
   font-weight: bold;
@@ -100,18 +103,14 @@ body {
   font-size: 18px;
   letter-spacing: .5px;
   text-align: center;
-
   color: #FFFFFF;
-}
-
-.content {
-
+  margin-bottom: 5px;
 }
 
 .direction-title {
   padding: 10px;
   background: rgba(196, 196, 196, 0.5);
-  color: #786F6F;
+  color: #110B0A1;
   line-height: 16px;
   font-size: 14px;
   font-style: normal;
