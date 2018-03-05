@@ -59,7 +59,6 @@ body {
   border-radius: 3px;
   background: rgba(227, 224, 255, 0.5);
   color: white;
-  font-family: "SF Pro Display";
   margin: 7px 0;
   line-height: 16px;
   font-size: 15px;
@@ -95,7 +94,6 @@ body {
   width: 238px;
   height: 23px;
   display: inline-block;
-  font: "SF Pro Display";
   font-style: normal;
   font-weight: bold;
   line-height: 16px;
@@ -114,7 +112,6 @@ body {
   padding: 10px;
   background: rgba(196, 196, 196, 0.5);
   color: #786F6F;
-  font-family: "SF Pro Display";
   line-height: 16px;
   font-size: 14px;
   font-style: normal;
@@ -127,7 +124,6 @@ body {
 .route-info {
   width: 100%;
   padding: 10px;
-  font-family: "SF Pro Display";
   line-height: 16px;
   font-size: 12px;
   font-style: normal;
